@@ -28,7 +28,7 @@ body {
 }
 
 .rainDrop--s {
-    --sz: 2rem;
+    --sz: 0.5rem;
     --blur: 2px;
     --a: 0.8;
     --x-start: 50vw;
@@ -39,7 +39,7 @@ body {
 }
 
 .rainDrop--m {
-    --sz: 3rem;
+    --sz: 1rem;
     --blur: 1px;
     --a: 0.8;
     --x-start: 50vw;
@@ -51,7 +51,7 @@ body {
 }
 
 .rainDrop--l {
-    --sz: 4rem;
+    --sz: 2rem;
     --blur: 0px;
     --a: 0.8;
     --x-start: 50vw;
