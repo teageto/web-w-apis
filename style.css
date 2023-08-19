@@ -5,10 +5,31 @@ body {
     min-height: 100vh;
 }
 
-.rain-container {
-    position: absolute;
-    inset: 0;
+header {
+    width: 100%;
     overflow: hidden;
+    height: 140px;
+}
+
+h1{
+    overflow: hidden;
+    width: 20%;
+    margin-top: 45px;
+    margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.bigcheems {
+    float: left;
+    width: overflow;
+}
+
+.rain-container {
+    position: initial;
+    float: initial;
+    inset: 0;
+    overflow: visible;
 }
 
 @keyframes animation {
@@ -46,8 +67,8 @@ body {
     --x-end: 0;
     --y-start: 0;
     --y-end: 100vh;
-    position: absolute;
     z-index: 50;
+    position: absolute;
 }
 
 .rainDrop--l {
@@ -58,8 +79,8 @@ body {
     --x-end: 0;
     --y-start: 0;
     --y-end: 100vh;
-    position: absolute;
     z-index: 80;
+    position: absolute;
 }
 
 

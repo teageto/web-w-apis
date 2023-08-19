@@ -1,4 +1,4 @@
-const COUNT = 200;
+const COUNT = 500;
 
 const SIZES = [
     'rainDrop--s',
@@ -29,7 +29,7 @@ const genRainDrop = (size, xStart, xEnd, yStart, emoji)=>{
     r.style.setProperty('--x-start', xStart + 'vw');
     r.style.setProperty('--x-end', xEnd + 'vw');
     r.style.setProperty('--y-start', yStart + 'vh');
-    r.style.setProperty('--y-end', yStart + 200 + 'vh');
+    r.style.setProperty('--y-end', yStart + 'vh');
 
     return r;
 }
