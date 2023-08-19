@@ -29,7 +29,7 @@ body {
 
 .rainDrop--s {
     --sz: 0.5rem;
-    --blur: 2px;
+    --blur: 1px;
     --a: 0.8;
     --x-start: 50vw;
     --x-end: 0;

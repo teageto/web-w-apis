@@ -15,7 +15,8 @@ const EMOJIS = [
     '☀️',
     '🌩️',
     '🌕',
-    '⭐'
+    '⭐',
+    '🌌'
 ];
 
 const rainContainer = document.querySelector('.rain-container');
